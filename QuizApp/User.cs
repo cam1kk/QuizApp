@@ -54,12 +54,15 @@ internal class User
                     if (birthDayR > DateTime.Now)
                     {
                         Console.WriteLine("Invalid birth date. Please enter a valid date.");
+                        Thread.Sleep(2000);
                         birthDayR = default(DateTime);
                     }
                 }
                 else
                 {
-                    Console.WriteLine("Invalid date format. Please enter date in yyyy-MM-dd format.");
+                    Console.Clear();
+                    Console.WriteLine("Invalid date format. Please enter date in dd.MM.yyyy format.");
+                    Thread.Sleep(2000);
                 }
             }
             if (!string.IsNullOrEmpty(loginR) && !string.IsNullOrEmpty(passwordR) && birthDayR != default(DateTime))
