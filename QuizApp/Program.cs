@@ -2,13 +2,11 @@
 //int choice = int.Parse(Console.ReadLine());
 //if (choice == 1)
 //{
-    
+
 //}
 //else if (choice == 2)
 //{
-//    User user;
-//    user = User.Registration();
-//    user.Show();
+
 //}
 //else if (choice == 3)
 //{

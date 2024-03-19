@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace QuizApp
+internal class Test
 {
-    internal class Test
-    {
-    }
+    public List<Question> questions;  
+
+
 }
